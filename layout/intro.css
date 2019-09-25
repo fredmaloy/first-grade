@@ -1,0 +1,80 @@
+
+.html__intro {
+    background-color: #231d3d;
+}
+
+
+.intro__wrapper {
+    background-image: url(../images/intro_background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-intro {
+    justify-content: center;
+    animation: intro-anim .5s 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    /* transform: scale(0);
+    transform: rotate(-30deg); */
+}
+
+/* .content-intro__anim {
+    
+} */
+
+.content__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto; 
+    padding: 14px 20px;
+    border: 3px solid #ec1e79;
+}
+
+.button__link {
+    font-family: "GothamProBold";
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    color: #ec1e79;
+    width: 176px;
+    height: 40px;
+}
+
+.button__link:hover, .content__link:hover {
+    background-color: #ec1e79;
+    color: #ffffff;
+}
+
+@keyframes intro-anim {
+    0% {
+        opacity: 0;
+        transform: scale(0) rotate(10deg);        
+    }
+
+    40% {
+        opacity: 1;
+        transform: scale(1) rotate(-30deg);
+    }
+
+    80% {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

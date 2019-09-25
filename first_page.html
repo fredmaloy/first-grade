@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=1100, initial-scale=0.3">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./layout/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <a href="./first_page.html" class="logo">
+                    <!-- ссылки на лого -->
+                    <img src="./images/logo-fig.png" class="logo__image" alt="Логотип компании">
+                    <!-- ссылки на лого -->
+                </a>
+                <aside class="sidebar">
+                    <!-- ссылки на предыдущие страницы -->
+                    <!-- <nav class="menu"> -->
+                    <ul class="sidebar__list sidebar__list-index">
+                        <li class="sidebar__item">
+                            <a href="#" class="menu__link menu__link--index menu__link--active">
+                                <div class="menu__icon">
+                                    <img src="./icons/main_icon.png" alt="" class="menu__icon-picture">
+                                </div>
+                                <div class="menu__title">Главная</div>
+                            </a>
+                        </li>
+                        <li class="sidebar__item">
+                            <a href="./reviews.html" class="menu__link menu__link--index">
+                                <div class="menu__icon">
+                                    <img src="./icons/feed_icon-white.png" alt="" class="menu__icon-picture">
+                                    <img src="./icons/feed_icon.png" alt="" class="menu__icon-picture__active">
+                                </div>
+                                <div class="menu__title">Отзывы</div>
+                            </a>
+                        </li>
+                        <li class="sidebar__item">
+                            <a href="./tariffs.html" class="menu__link menu__link--index">
+                                <div class="menu__icon">
+                                    <img src="./icons/wallet_icon-white.png" alt="" class="menu__icon-picture">
+                                    <img src="./icons/wallet_icon.png" alt="" class="menu__icon-picture__active">
+                                </div>
+                                <div class="menu__title">Тарифы</div>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- </nav> -->
+                </aside> <!-- ссылки на предыдущие страницы -->
+                <address class="contacts">
+                    <a href="tel:+78000039210" class="contacts__phone">8(800)00-392-10</a>
+                    <div class="contacts__discription">График работы</div>
+                    <div class="contacts__dropdown">
+                            <div class="dropdown__time">Пн-вс:09:00-20:00</div>
+                            <div class="dropdown__dinner">обед:14:00-14:30</div>
+                        <div class="dropdown__block"></div>
+                    </div>
+                </address>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="banner__container">
+                <a href="#" class="banner__way">
+                    <img src="./images/banner.jpg" alt="" class="banner__image">
+                </a>
+            </div>
+        </div>
+        <div class="container contant__container">
+            <div class="left-page">
+                <div class="plans">
+                    <div class="plans__top">
+                        <h3 class="plans__top-title">Топ-тариф</h3>
+                    </div>
+                    <div class="plans__hemlock">
+                        <h3 class="plans__title">Уникальность</h3>
+                        <div class="plans__text">Создан для вашего комфортного отдыха</div>
+                    </div>
+                    <div class="plans__content">
+                        <ul class="plans__list">
+                            <li class="plans__list-item"><span>Кофе/чай</span></li>
+                            <li class="plans__list-item"><span>Шкаф(5кг)</span></li>
+                            <li class="plans__list-item"><span>Рабочее место</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social">
+                    <div class="social__title">
+                        <h3 class="social-title__text">Наши социальные сети</h3>
+                    </div>
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a rel="nofolow" href="#" class="social__item-element" title="Переход на страницу Вконтакте"
+                                target="_blank">
+                                <img src="./icons/vk.png" alt="" class="social__logo">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a rel="nofolow" href="#" class="social__item-element" title="Переход на страницу FaceBook"
+                                target="_blank">
+                                <img src="./icons/fb.png" alt="" class="social__logo">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a rel="nofolow" href="#" class="social__item-element" title="Переход на страницу Google+"
+                                target="_blank">
+                                <img src="./icons/google.png" alt="" class="social__logo">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a rel="nofolow" href="#" class="social__item-element" title="Переход на страницу Tweeter"
+                                target="_blank">
+                                <img src="./icons/twitter.png" alt="" class="social__logo">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a rel="nofolow" href="#" class="social__item-element" title="Наш E-mail" target="_blank">
+                                <img src="./icons/mail.png" alt="" class="social__logo">
+                            </a>
+                        </li>
+                    </ul>
+                </div> <!-- social -->
+            </div>
+
+            <div class="page">
+                <div class="page__content">
+                    <h2 class="title">Последние новости</h2>
+                    <ul class="news">
+                        <li class="news__item">
+                            <div class="news__avatar">
+                                <img src="./images/news_item1.png" alt="" class="news__avatar-image">
+                            </div>
+                            <div class="news__container">
+                                <div class="news__date">
+                                    <time class="news__date">12.10.2016</time>
+                                </div>
+                                <h3 class="news__header">Черная дыра скидок!</h3>
+                                <p class="news__text">Ключевым технологическим партнером GrowUP является дата-центр
+                                    Миран, расположенный всего лишь в 500 метрах от здания, а значит, скорость
+                                    интернета будет стабильной в любое время суток. Коворкинг работает в формате 24/7.
+                                    Используйте шкаф для хранения личных вещей.</p>
+                            </div>
+                        </li>
+                        <li class="news__item">
+                            <div class="news__avatar">
+                                <img src="./images/news__item2.png" alt="" class="news__avatar-image">
+                            </div>
+                            <div class="news__container">
+                                <div class="news__date">
+                                    <time class="news__date">12.10.2016</time>
+                                </div>
+                                <h3 class="news__header">Заражай
+                                    друзей, получай призы!
+                                </h3>
+                                <p class="news__text">Быть частью сообщества сильных, грамотных и увлеченных своим
+                                    делом профессианалов - вдохновляет выходить на новые уровни развития. Регулярно в
+                                    коворкингепроводятся лекции, мастер-классы, встречи с инвесторами или менторами для
+                                    резидентов. </p>
+                            </div>
+                        </li>
+                        <li class="news__item">
+                            <div class="news__avatar">
+                                <img src="./images/news_item3.png" alt="" class="news__avatar-image">
+                            </div>
+                            <div class="news__container">
+                                <div class="news__date">
+                                    <time class="news__date">12.10.2016</time>
+                                </div>
+                                <h3 class="news__header">Новоерабочее место для бизнесменов.</h3>
+                                <p class="news__text">Для резидентов коворкинга оборудована не только рабочая зона, но
+                                    и зона отдыха. Она включает в себя: кухонную зону релакса. Каждый резидент может
+                                    беспрепятственно пользоваться кухонным оборудованием: микроволновкой, чайником,
+                                    кофе машиной, посудой.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="pagination">
+                        <div class="pagination__display">Страница 1 из 7</div>
+                        <div class="pagination__controlls">
+                            <a href="#" class="pagination__prev">
+                                <img src="./images/left.png" alt="" class="pagination__left">
+                            </a>
+                            <ul class="pagination__list">
+                                <li class="pagination_item">
+                                    <a href="#" class="pagination__link pagination__link--active">1</a>
+                                </li>
+                                <li class="pagination_item">
+                                    <a href="#" class="pagination__link">2</a>
+                                </li>
+                                <li class="pagination_item">
+                                    <a href="#" class="pagination__link">3</a>
+                                </li>
+                                <li class="pagination_item">
+                                    <a href="#" class="pagination__link">4</a>
+                                </li>
+                                <li class="pagination_item">
+                                    <a href="#" class="pagination__link">5</a>
+                                </li>
+                                <li class="pagination_item">
+                                    <a href="#" class="pagination__link">6</a>
+                                </li>
+                                <li class="pagination_item">
+                                    <a href="#" class="pagination__link">7</a>
+                                </li>
+                            </ul>
+                            <a href="#" class="pagination__prev">
+                                <img src="./images/right.png" alt="" class="pagination__right">
+                            </a>
+                        </div> <!-- pagination__controlls -->
+                    </div> <!-- pagination -->
+                </div> <!-- page__content -->
+            </div> <!-- page -->
+        </div>
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="signature">
+                    <p class="signature__text">сделано с любовью и старанием</p>
+                    <p class="signature__text">на курсе "HTML+CSS" в LoftSchool</p>
+                    <p class="signature__text">Автор работы: Черепанов Сергей.</p>
+                </div>
+                <a href="./first_page.html" class="footer-logo">
+                    <img src="./images/logo-fig.png" alt="" class="footer-logo__image"> <!-- логотип футера -->
+                </a>
+
+            </div> <!-- container -->
+        </footer>
+        <!-- container -->
+    </div> <!-- wrapper -->
+</body>
+
+</html>

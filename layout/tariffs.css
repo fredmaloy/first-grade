@@ -1,0 +1,146 @@
+.tariffs__plans-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-self: stretch; */
+
+}
+
+.tariffs__plans-item {
+    width: calc(100%/3);
+}
+
+.tariffs__plans-item {
+    padding: 43px 27.5px 23px 27.5px;
+}
+
+.tariffs__plans-list {
+    padding: 0;
+    margin-left: -27.5px;
+}
+
+.tariffs__item-image {
+    width: 250px;
+    height: 153px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tariffs__item-image:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.tariffs__title-partners {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* padding-top: 53px;
+    padding-bottom: 53px; */
+}
+
+.tariffs__item-image-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #5dd1f8;
+    font-family: "GothamProBold";
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.tariffs__item-image-title span {
+    color: #ec1e79;
+}
+
+.tariffs__item-text {
+    text-align: center;
+     
+}
+
+.tariffs__item-hemlock {
+    font-family: "GothamProBold";
+    font-size: 18px;
+    padding: 26px 20px;
+
+}
+
+.tariffs__item-coment {
+    font-family: "GothamProLight";
+    width: 257px;
+}
+
+.container__partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    /* padding-bottom: 94px; */
+    border: 1px solid #e8e9ed;
+    width: 272px;
+    min-height: 662px;
+    margin-right: 23px;
+}
+
+.tariffs__title-partners {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.title_partners {
+
+    padding: 27px 84px;
+    
+}
+
+.container__partners-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    height: 600px;
+    margin-bottom: 37;
+}
+
+.container__partners-item {
+    /* padding-top: 45px;  */
+    width: 141px;
+    height: 37px;
+    margin-bottom: 70px;
+}
+
+.container__partners-image {
+    /* margin-top: 37px; */
+}
+
+.container__partners-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+   
+    /* padding-top: 45px; */
+}
+
+.container__partners-logo {
+    filter: sepia(1);
+}
+
+
+.container__partners-logo:hover {
+    filter: sepia(0);
+}
+

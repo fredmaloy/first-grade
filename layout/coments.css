@@ -1,0 +1,259 @@
+.breadcrumbs {
+    margin-top: 44px;
+    margin-bottom: 28px;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+}
+
+.breadcrumbs__link {
+    font-family: "GothamProLightItalic";
+    text-decoration: none;
+    color: rgba(236, 30, 121, 0.8);
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+    color: rgba(34, 31, 31, 0.8);
+}
+
+/* .container__sentense {
+    width: 274px;
+    height: 230px;
+} */
+
+.no-avatar {
+    /* flex: 1; */
+    width: 160px;
+    height: auto;
+    background-color: #f5f5f5;
+    /* background-image: url(../images/logo-fig-review.png)
+    width: 99px;
+    height: 51px; */
+}
+
+.reviews__date {
+    font-family: "GothamProLight";
+}
+
+.rectangle__container {
+    background-color: #27273e;
+    background-image: url(../images/Rectangle_1.jpg);
+    min-height: 174px; 
+    background-repeat: repeat-x;
+    background-size: auto 100%;  
+    width: 274px;
+    height: 230px;
+    /* margin-left: 50px; */
+    margin-right: 22px;
+    /* padding-left: 20px;  */
+}
+
+.reviews__contant-sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container__sentense {
+    width: 274px;
+    height: 230px;
+    margin-bottom: 30px;
+}
+
+.rectangle__text-con {
+    padding: 0;
+    font-family: "GothamProLight";
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 30px;
+}
+
+.rectangle__text-con span {
+    font-family: "GothamProBold";
+    color: #ec1e79;
+     
+}
+
+
+
+.feedback {
+    font-family: "GothamProLight";
+}
+
+
+.feedback__container {
+    width: 768px;
+    height: 427px;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    margin-top: 57px;
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+
+.feedback__content {
+    padding: 51px 70px;
+}
+
+.feedback__line1 {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 30px; 
+}
+
+.feedback__social {
+    flex: 1;
+    padding-left: 23px;
+}
+
+.feedback__name {
+    flex: 1;
+}
+
+.feedback__name--field {
+    width: 269px;
+    height: 45px;
+}
+
+.feedback__name--field:focus, 
+.feetback__enter-text:focus {
+    border: 1px solid #ec1e79;
+}
+
+.feedback__enter {
+    padding-bottom: 10px;
+}
+
+.feetback__enter-text, .feedback__name--field {
+    border: 1px solid #ffffff;
+    width: 100%;
+    padding: 15px 8px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.feedback__line2 {
+    padding-top: 21px;
+} 
+
+.feedback__line3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.feetback__enter-text {
+    resize: none;
+    height: 90px;
+}
+
+.btn__radio {
+    display: flex;
+    padding-top: 10px;
+}
+
+.display-foto {
+    opacity: 0;
+    position: absolute;
+}
+
+.btn__btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.display-foto__btn {
+    margin-right: 19px; 
+    align-items: center;
+}
+
+.display-foto__btn {
+    display: flex;
+    align-items: center
+}
+
+.display-foto__btn-see {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border:  1px solid #c9c9c9;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.display-foto__btn-see:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #ec1e79;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.display-foto:checked + .display-foto__btn .display-foto__btn-see {
+    border: 1px solid #ec1e79;
+
+}
+
+.display-foto:checked + .display-foto__btn .display-foto__btn-see:before {
+    opacity: 1;
+}
+
+.display-foto:checked + .display-foto__btn .display-foto--title {
+    color: #ec1e79;
+}
+
+.btn-send {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27273e;
+    border-radius: 3px;
+    border: 0;
+    color: #ffffff;
+    width: 139px;
+    height: 45px;
+    /* padding: 19px 22px; */
+    font-family: "GothamProBold";
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn__send-name {
+    letter-spacing: 2.4px;
+}
+
+.btn:hover {
+    background-color: #ec1e79;
+}
+
+
+
+
+
+
+
+
+
+

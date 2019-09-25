@@ -1,0 +1,36 @@
+
+.footer {
+    min-height: 78px;
+    background-color: #27273e;
+    color: #fff;
+    margin-top: -70 auto;
+    min-width: 1100px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+
+.footer_logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.footer-logo__image {
+    padding: 13px 0;
+}
+
+.signature__text {
+    margin: 6px auto;
+}
+
+
+
+
+
+
+
